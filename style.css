@@ -1,0 +1,40 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxing;
+}
+/* Container */
+.container{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    border: 1px solid purple;
+    margin: auto;
+    margin-top: 50px;
+}
+/* Login Form */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: purple;
+}
+.form h2{
+    font-size: large;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    background-color: aliceblue;
+    font-weight: bold;
+    border: none;
+}
