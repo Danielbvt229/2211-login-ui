@@ -1,40 +1,76 @@
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-boxing;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
 }
-/* Container */
-.container{
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #f2f2f2;
+}
+.wrapper{
+    max-width: 390px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1)
+}
+.wrapper .title-text{
     display: flex;
-    height: 500px;
-    width: 800px;
-    border: 1px solid purple;
-    margin: auto;
-    margin-top: 50px;
+    width: 200%;
 }
-/* Login Form */
-.form{
+.wrapper .title-text .title{
+    width: 50%;
+    font-size: 35px;
+    font-weight: 600;
+text-align: center;
+}
+.wrapper .form-container{
+    width: 100%;
+}
+.wrapper{
+    border-style: solid;
+}
+.form-container .form-inner form{
+
+}
+.form-inner form .field{
+height: 50px;
+width: 100%;
+margin-top: 20px;
+}
+.form-inner form .field input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    font-size: 17px;
+    border: 1px solid lightgray;
+    border-bottom-width: 2px;
+}
+.form-inner form .pass-link{
+    margin-top: 5px;
+}
+.form-inner form .pass-link a,
+.form-inner form .signup-link a{
+    color: #fa4299
+    text-decoration: none;
+}
+.form-inner form .pass-link a:hover,
+.form-inner form .signup-link a:hover{
+   text-decoration: underline; 
+}
+
+#login{
+    background-color: orange;
+}
+.colorstuff{
+    margin: 10px;
+    background-image: linear-gradient(red, yellow);
+}
+.login-info{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    align-items: center;
-    background-color: purple;
-}
-.form h2{
-    font-size: large;
-}
-.box{
-    padding: 12px;
-    width: 65%;
-    margin: 15px;
-    border: 1px solid black;
-    outline: none;
-    border-radius: 20px;
-}
-#submit{
-    padding: 12px 30px;
-    width: 40%;
-    background-color: aliceblue;
-    font-weight: bold;
-    border: none;
 }
